@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<title>Jake Kovach's Nano-Site</title>
+  	<meta charset="utf-8"/>
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One|Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+  <body>
+
+  <div class="container"> 
+   
+    <div class="row">
+      <div class="col-md-6" id="splash_pic"><img class="img-responsive" src="images/100x100.jpeg" alt="square header icon of me"></div>
+      <div class="col-md-6 text-right text-uppercase">
+        <h1 id="header">Jake Kovach</h1>
+        <h3>Front-end Tickler</h3>
+      </div>
+    </div>
+
+    <hr />
+    
+    
+    <div class="row">
+      <div class="col-md-12">
+        <img class="img-responsive" src="images/main_splash.jpeg" alt="arena rock pic from stage">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Featured Work</h2>
+      </div>
+    </div>
+
+
+    <div class="row text-center">
+
+      <div class="col-md-4">
+        <img class="img-responsive" src="images/pen-and-paper.jpg" data-toggle="modal" data-target="#project1" alt="resume pen and paper image">
+        <h2 class="text-uppercase app_name">Interactive Resume</h2>
+        <p><a href="https://github.com/jakekovach/intro_project">https://github.com/jakekovach/intro_project</a></p>
+      </div>
+      
+      <div class="col-md-4">
+        <img class="img-responsive" src="images/asteroids.jpg" data-toggle="modal" data-target="#project2" alt="more literal asteroids pic">
+        <h2 class="text-uppercase app_name">Arcade Clone</h2>
+        <p><a href="https://github.com/jakekovach/intro_project">https://github.com/jakekovach/intro_project</a></p>
+      </div>
+    
+   
+      <div class="col-md-4">
+        <img class="img-responsive" src="images/vegas_map.jpg" data-toggle="modal" data-target="#project3" alt="vegas street map">
+        <h2 class="text-uppercase app_name">Fancy Map</h2>
+        <p><a href="https://github.com/jakekovach/intro_project">https://github.com/jakekovach/intro_project</a></p>
+      </div>  
+
+    </div>  
+      
+
+
+
+  </div>
+        <!-- Modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Jake Kovach</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/pen-and-paper.jpg" alt="resume pop out pic">
+        This is an interactive resume that I developed using HTML, CSS, and JavaScript
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="ModalLabel_arcade" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="ModalLabel_arcade">Old School Arcade</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/asteroids.jpg" alt="asteroids pop out pic">
+        Very exited to learn how to make an classic arcade game clone!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="ModalLabel_map" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="ModalLabel_map">Where am I?</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/vegas_map.jpg" alt="vegas pop out pic">
+        This map that I develop will probably be strong competition for google maps...right? 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  </body>
+</html>

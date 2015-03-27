@@ -1,0 +1,47 @@
+
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	
+}
+
+a {
+	font-weight: 300;
+	color: #BCBBBB;
+
+}
+
+hr {
+    border: none;
+    height: 4px;
+    /* Set the hr color */
+    color: rgba(4, 84, 119, .8);/* old IE */
+    background-color: rgba(4, 84, 119, .4); /* Modern Browsers */
+}
+
+h2 {
+	font-weight: 300;
+	color: #BCBBBB;
+}
+
+h3 {
+	color: rgba(4, 84, 119, 0.8);
+}
+
+#splash_pic {
+
+	margin-top: 15px;
+	padding-top: 5px;
+}
+
+#header {
+	font-weight: 300;
+	font-size: 400%;
+	color: rgba(4, 84, 119, 0.6);
+}
+
+.app_name {
+	font-weight: 700;
+	color: rgba(4, 84, 119, .8);
+}
+
