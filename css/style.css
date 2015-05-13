@@ -2,13 +2,11 @@
 
 body {
 	font-family: 'Quicksand', sans-serif;
-	
 }
 
 a {
 	font-weight: 300;
-	color: #BCBBBB;
-
+	color: #bcbbbb;
 }
 
 hr {
@@ -21,7 +19,7 @@ hr {
 
 h2 {
 	font-weight: 300;
-	color: #BCBBBB;
+	color: #bcbbbb;
 }
 
 h3 {
@@ -29,7 +27,6 @@ h3 {
 }
 
 #splash_pic {
-
 	margin-top: 15px;
 	padding-top: 5px;
 }
@@ -44,4 +41,3 @@ h3 {
 	font-weight: 700;
 	color: rgba(4, 84, 119, .8);
 }
-
